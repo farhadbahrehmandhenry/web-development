@@ -23,8 +23,8 @@
     - main, nav, section, article, aside, header, footer, time, figure, abbr, data
 - css - muscels - cascading style sheet
 
-  - cascade => order matters - what comes after overrides th rests
-  - specifity => if we have two different style for one element the one
+  - cascade => order matters - what comes after overrides the rests
+  - specificity => if we have two different style for one element the one
     that is more specific will be used by browser
     !important is stronger than inline style, inline style is stronger than id, id is stronger than class, class is stronger than tag name
 
@@ -105,5 +105,16 @@
     - null
   - NaN
   - const, let, var
-
   - typeof
+
+- string methods
+  - indexOf
+  - slice // doesn't change the original
+  - replace
+  - replaceAll
+  - repeat
+- string template literals
+
+  - `${}`
+
+- undefined vs null
