@@ -118,3 +118,28 @@
   - `${}`
 
 - undefined vs null
+
+- array
+
+  - concat
+  - indexOf
+  - slice
+  - splice
+  - reverse
+  - reference type
+  - array and const
+
+- object
+
+  - obj.x
+  - obj['x'] => you can do more instead of 'x'
+
+- prompt('what id your name?')
+
+- for of
+
+  - for(var item of items) // array
+  - for(var item of Object.entries(items)) // object
+
+- for in
+  - object - gets the key
