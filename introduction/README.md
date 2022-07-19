@@ -142,4 +142,67 @@
   - for(var item of Object.entries(items)) // object
 
 - for in
+
   - object - gets the key
+
+- function scope
+- block scope (only for const and let)
+- lexical scope - inner function has access to parent scope - (but not the other way)
+
+- higher order function
+
+  - return a function or accept a function as argument
+
+- method vs function
+
+  - methods are functions that are properrties of an object
+
+- ## this
+
+- try, catch
+  -
+
+- ## reducer function
+it does a calculation from begining and return one single value
+that can be math operation or some other logics
+
+- ## default params
+shoul be defined as last args in the function
+
+- ## spread 
+
+- ## REST params
+rest is different from spread
+
+convert all of params to an array 
+function(...nums){}
+or
+function(...args){}
+
+function (first, second, ...rest)
+
+- ## destructuring array and object and params
+order matters
+const [one, two, three, ...others] = [1, 2, 3, 4, 5, 6, 7]
+one => 1
+two => 2
+three => 3
+others => [4, 5, 6, 7]
+
+const {id, name} = obj;
+const {id: userId} = obj // rename
+const {name = "Jhon"} = obj // defaut
+
+function random({one, two, three=4}){}
+random({one: 1, two: 2, three: 3})
+
+- ## DOM
+represents the web page
+it's a js object. tree structure. document>>body>>div>>...
+
+innerText => shows what appears on the page
+contetText => shows what is in the html
+
+innerText and contentText are for text, but
+if we want to add a tag or html, we should use innerHtml.
+innerHtml works for text too
